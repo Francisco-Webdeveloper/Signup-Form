@@ -1,5 +1,5 @@
 # Signup-Form
-Responsive signup from built with html5 and bootstrap
+Responsive signup form built with html5 and bootstrap
 
 ## Table of contents
 * Features
