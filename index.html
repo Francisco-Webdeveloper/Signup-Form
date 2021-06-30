@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Airbnb home</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Responsive signup form -->
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <form action="#" class="border border-secondary card p-4 m-3">
+            <h1 class="text-center mb-5 pb-2 border-bottom">Create your account</h1>
+            <div class="form-row">
+              <div class="form-group col-6">
+                <label for="fname">Your first name</label>
+                <input type="text" id="fname" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group col-6">
+                <label for="lname">Your last name</label>
+                <input type="text" id="lname" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" class="form-control" placeholder="jack@email.com">
+            </div>
+            <div class="form-group">
+              <label for="password">Your password</label>
+              <input type="password" id="password" class="form-control" placeholder="8 characters min.">
+            </div>
+            <div class="form-group">
+              <label for="how">How do you know us?</label>
+              <select name="means" id="how" class="form-control">
+                <option value="Facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="Google Search">Google Search</option>
+                <option value="friend">A friend</option>
+              </select>
+            </div>
+            <input type="submit" value="Sign up" class="btn btn-primary btn-lg">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

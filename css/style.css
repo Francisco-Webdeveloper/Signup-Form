@@ -1,0 +1,13 @@
+@import url("components/form.css");
+
+body {
+  margin: 0;
+  font-family: "Varela", sans-serif;
+  margin-top: 20px;
+  background-color: #FAFAFA;
+
+}
+h1 {
+  font-family: "Varela", sans-serif;
+  font-size: 30px;
+}
